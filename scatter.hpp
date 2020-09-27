@@ -5,7 +5,7 @@
 #include <Python.h>
 #include <string>
 
-int WordCloud(const std::string& x,
+int Scatter(const std::string& x,
               const std::string& y,
               const std::string& a,
               const std::string& c,
