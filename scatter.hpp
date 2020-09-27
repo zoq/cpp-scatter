@@ -1,5 +1,5 @@
-#ifndef WORD_CLOUD_CPP
-#define WORD_CLOUD_CPP
+#ifndef CSCATTER_CSCATTER_CPP
+#define CSCATTER_CSCATTER_CPP 
 
 #define PY_SSIZE_T_CLEAN
 #include <Python.h>
