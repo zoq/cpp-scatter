@@ -33,7 +33,7 @@ int Scatter(const std::string& x,
 
         if (pFunc && PyCallable_Check(pFunc))
         {
-            pArgs = PyTuple_New(4);
+            pArgs = PyTuple_New(8);
 
             PyObject* pValueX = PyUnicode_FromString(x.c_str());
             PyTuple_SetItem(pArgs, 0, pValueX);
